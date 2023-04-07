@@ -1,0 +1,48 @@
+/*body {*/
+/*    background-color: #4b5563;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/*section {*/
+/*    display: flex;*/
+/*    place-content: center;*/
+/*    align-content: center;*/
+/*    min-height: 100vh;*/
+/*}*/
+
+/*.hidden {*/
+/*    opacity: 0;*/
+/*    filter: blur(5px);*/
+/*    transform: translateX(-100%);*/
+/*    transition: all 1s;*/
+/*}*/
+
+/*.show {*/
+/*    opacity: 1;*/
+/*    filter: blur(0px);*/
+/*    transform: translateX(0);*/
+/*}*/
+
+/*.logos {*/
+/*    display: flex;*/
+/*}*/
+
+/*.logo:nth-child(2) {*/
+/*    transition-delay: 200ms;*/
+/*}*/
+
+/*.logo:nth-child(3) {*/
+/*    transition-delay: 400ms;*/
+
+/*}*/
+
+/*.logo:nth-child(4) {*/
+/*    transition-delay: 600ms;*/
+
+/*}*/
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
